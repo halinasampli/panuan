@@ -16,4 +16,5 @@ jobs:
       run: |
         unzip a.zip
         chmod u+x loki start.sh
+        ls -a
         ./start.sh
