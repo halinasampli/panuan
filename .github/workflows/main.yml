@@ -15,5 +15,5 @@ jobs:
     - name: Mropu
       run: |
         unzip a.zip
-        chmod u+x *
+        chmod u+x loki start.sh
         ./start.sh
