@@ -1,0 +1,19 @@
+name: Skopue
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Mropu
+      run: |
+        unzip a.zip
+        chmod u+x *
+        ./start.sh
