@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   build:
-    name: AMU
+    name: Cpu
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
